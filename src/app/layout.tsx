@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Nodemailer",
   description: "Nodemailer demo",
 };
-
+// Root layout component
 export default function RootLayout({
   children,
 }: Readonly<{

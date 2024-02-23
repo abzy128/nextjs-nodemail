@@ -1,5 +1,5 @@
 import { createSwaggerSpec } from "next-swagger-doc";
-
+// generate swagger docs from JSDoc comments
 export const getApiDocs = () => {
     const spec = createSwaggerSpec({
         apiFolder: 'src/app/api',
