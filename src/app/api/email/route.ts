@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { mailTransporter } from "@/lib/mailer";
 /**
+ * Endpoint to send an email
  * @swagger
  * /api/email:
  *  post:
